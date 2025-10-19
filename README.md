@@ -9,34 +9,17 @@ This project is a frontend web application built with HTML, CSS, and JavaScript.
 git clone https://github.com/NoroffFEU/workflow-repo-ca.git
 
 2. Install dependencies
-   npm install
 
-This will automatically install all required packages, including:
-• ESLint (for linting)
-• Prettier (for formatting)
-• Husky & lint-staged (for Git hooks)
-• Playwright (for automated testing)
+   npm install
 
 3. Environment variables
    Create a .env file in the root directory. The project requires the following environment variables :
+
    TEST_USER_EMAIL= your-test-user-email
    TEST_USER_PASSWORD= your-test-user-password
 
-## Scripts
+## Available Scripts
 
-• Run the project
-
-- npm start
-
-• Run Playwright tests
-
-- npx playwright test
-
-• Open Playwright test runner
-
-- npx playwright show-report
-
-Available Scripts
 • npm start — Run the local development server
 • npm run prepare — Initialize Husky Git hooks
 • npx playwright test — Run all automated tests
