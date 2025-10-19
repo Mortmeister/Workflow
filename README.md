@@ -20,12 +20,12 @@ git clone https://github.com/NoroffFEU/workflow-repo-ca.git
 
 ## Available Scripts
 
-• npm start — Run the local development server
-• npm run prepare — Initialize Husky Git hooks
-• npx playwright test — Run all automated tests
-• npx playwright show-report — View the Playwright test report
-• npm run lint — Run ESLint
-• npm run format — Run Prettier (if configured in package.json)
+• npm start
+• npm run prepare
+• npx playwright test
+• npx playwright show-report
+• npm run lint
+• npm run format
 
 ## Testing
 
